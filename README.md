@@ -18,8 +18,11 @@ K = n * dmax / (20 * d + 0.00001)
 ###### where:
 
 K: Dead wasps inside the nest
+
 n: Amount of wasps inhabiting the nest
+
 d: Distance between the bomb and the nest
+
 dmax: Maximum distance between 2 nests
 
 The goal of this project is to find out the optimum coordinates for positioning the bombs in order to kill the greatest amount of wasps.
