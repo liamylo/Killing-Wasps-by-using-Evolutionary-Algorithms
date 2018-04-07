@@ -2,12 +2,12 @@
 
 A small project on how to implement an evolutionary algorithm and utilize it in order to eliminate some wasp nests that exist inside a house's attic.
 
-## Problem's Description
+## Problem Description
 You just bought a house and you discover that the attic is full of wasps aou decide to eliminate them before moving in. In order to do so, you equip yourself with three insecticide bombs which have a specific range and must be placed really close to the nests.
 
 Unfortunately, you only have three of these bombs and they are not enough to kill all the wasps, but there is a way to maximize the amount of wasps that will be killed.
 
-###### You are given the following hints:
+#### You are given the following hints:
 
 A map that describes the location of the nests and also the amount of wasps that live in each one of them.
 
@@ -15,7 +15,7 @@ A formula that describes the relationship between the distance of the bomb from 
 
 K = n * dmax / (20 * d + 0.00001)
 
-where:
+###### where:
 
 K: Dead wasps inside the nest
 n: Amount of wasps inhabiting the nest
